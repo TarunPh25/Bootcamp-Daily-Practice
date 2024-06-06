@@ -1,5 +1,5 @@
 # Bootcamp-Daily-Practice
-This is my first Day for python practice
+This is my first Day for python practice(06/06/2024):
 <br>
 Starting with python Basics
 # Python Basic and functions :
