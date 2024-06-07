@@ -186,6 +186,34 @@ sorted_students = sorted(students, key=lambda x: x[1])
 print("Sorted students by age:", sorted_students)
 # Output: Sorted students by age: [('Bob', 20), ('Charlie', 21), ('Alice', 22)]
 
+#Square of given number by lambda function?
+x = lambda n : n*n*n
+y= x(12)
+print(y)
+#add two numbers:
+x = lambda  n,m: n+m
+y = x(12,8)
+print(y)
+#len of a string
+x = lambda n : len(n)
+y = x("Tarun")
+print(y)
+
+#given a name we have to print that name according to their length.
+x= lambda n: (n+"\n")*len(n) 
+y = x("Tarun")
+print(y)
+
+x= lambda n: n*len(n)
+y = x("Anu\n")
+print(y)
+
+#we have given two numbers how to find greater number from them.
+x = lambda n,m: n if n>m else m
+y = x(12,80)
+print(y)
+
+
 #Some function of Lambda Functions:
 #1) map function(): he map() function in Python applies a given function to all the items in an iterable (like a list, tuple, etc.) and returns a map object (an iterator) that yields the results.
 #Example of map() function:
