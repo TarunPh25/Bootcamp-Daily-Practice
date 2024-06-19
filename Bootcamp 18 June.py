@@ -1,4 +1,4 @@
---Data Definition Language (DDL) commands in SQL are used to define and modify the database structure. Here are the primary DDL commands
+Data Definition Language (DDL) commands in SQL are used to define and modify the database structure. Here are the primary DDL commands
 --1)CREATE: Used to create a new database object such as a table, view, or index.
 -- Create a new table
 CREATE TABLE Employees (
